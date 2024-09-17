@@ -1,0 +1,59 @@
+.add {
+  border: 2px solid red;
+}
+img {
+  border-radius: 1rem;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-width: 4px;
+  border: 2px solid hsl(14, 25%, 72%);
+  border-radius: 9999px;
+  width: 200px;
+  margin: auto;
+  background-color: hsl(20, 50%, 98%);
+  transform: translateY(-20px);
+}
+
+.btn1 {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding: 1rem;
+  justify-content: space-between;
+  border-radius: 9999px;
+  width: 200px;
+  color: white;
+  margin: auto;
+  background-color: hsl(14, 86%, 42%);
+  transform: translateY(-20px);
+}
+.price {
+  color: hsl(14, 86%, 42%);
+}
+.box {
+  background-color: hsl(20, 50%, 98%);
+  min-height: 300px;
+  overflow: visible;
+}
+.text_box {
+  color: hsl(14, 86%, 42%);
+}
+.circle {
+  color: hsl(20, 50%, 98%);
+}
+
+.cart {
+  min-height: 200px;
+  overflow-y: visible;
+}
+
+@media (min-width: 1024px) {
+  .cart {
+    min-height: 400px;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+}
